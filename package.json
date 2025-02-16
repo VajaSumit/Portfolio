@@ -1,7 +1,7 @@
 {
   "name": "sumit-vaja-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/VajaSumit",
+  "homepage": "https://vajasumit.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
