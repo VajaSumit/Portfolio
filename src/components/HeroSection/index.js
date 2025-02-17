@@ -27,6 +27,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import DescriptionIcon from '@mui/icons-material/Description';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const HeroSection = () => {
   const [isTouched, setIsTouched] = useState(false);
@@ -75,9 +76,11 @@ const HeroSection = () => {
               <SocialMediaIcons>
                 <SocialMediaIcon href={Bio.github} target="display"><GitHubIcon /></SocialMediaIcon>
                 <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-                <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
+                {/* <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon> */}
                 <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
                 <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+              <SocialMediaIcon href={Bio.whatsapp} target="display"><WhatsAppIcon /></SocialMediaIcon> 
+
               </SocialMediaIcons>
 
               <ResumeButton href={Bio.resume} target='_blank'>

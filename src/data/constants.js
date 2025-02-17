@@ -21,6 +21,9 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/vaja-sumit-01a498234/",
   insta: "https://www.instagram.com/sumit_vaja119/",
   facebook: "https://www.facebook.com/sumit.vaja.142",
+  twitter:"https://x.com/VajaSumit119168",
+  whatsapp:"https://api.whatsapp.com/send/?phone=919664880844&text&type=phone_number&app_absent=0"
+  
 };
 
 export const skills = [
